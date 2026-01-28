@@ -179,7 +179,7 @@ def main():
     
     model = 'claude-opus-4-1'
     """gpt-4o, claude-opus-4-1-20250805, DeepSeek-V3, gemini-2.5-pro, gpt-5-mini"""
-    system_prompt = read_txt_file('system_prompt_v1.txt')
+    system_prompt = read_txt_file('initialization prompt.txt')
     filepath = 'sensi_data_v5.csv'
     sensi_df, sensi_json = read_csv_columns(filepath, ['exposure','outcome','measured confounders','Effect size'])
     results = []
