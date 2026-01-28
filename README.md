@@ -1,4 +1,4 @@
-# LLMs-for-sensitivity-analysis
+# Codes for "Using large language models for sensitivity analysis in causal inference: cases studies on  Cornfield inequality and E-value"
 
 The core implementation of this study is included  in the script `all.py`.
 
